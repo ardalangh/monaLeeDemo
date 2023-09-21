@@ -5,6 +5,7 @@ function Footer(props) {
     return (
         <Box
             sx={{
+                alignItems: 'flex-end',
                 padding: '1% 5%',
                 backgroundColor: '#373844',
             }}

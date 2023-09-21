@@ -24,7 +24,7 @@ function App() {
                     height: "100%", // "100vh
                     flexDirection: 'column',
                     justifyContent: 'space-between',
-                    marginBottom: '5%',
+                    marginBottom: '10%',
                 }}
             >
                 <Box
