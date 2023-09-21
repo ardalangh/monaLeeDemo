@@ -12,6 +12,7 @@ function DataCard(props) {
                 <Card
                     className="dataCard"
                     sx={{
+                        height: '70%',
                         borderRadius: '15px',
                         padding: '3%',
                         display: 'flex',
@@ -19,6 +20,7 @@ function DataCard(props) {
                         '@media (min-width: 850px)': {
                             flexDirection: 'row', // Row direction for medium and large screens
                             justifyContent: 'center',
+                            height: '500px',
                         },
                         alignItems: 'center',
                         gap: '2%',
